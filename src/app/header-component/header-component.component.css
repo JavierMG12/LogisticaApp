@@ -1,0 +1,7 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #F8F2F0;
+}
+.page-header {
+  background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img_url/carousel-1.jpg)  center center no-repeat;
+  background-size: cover;
+}

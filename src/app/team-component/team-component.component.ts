@@ -3,18 +3,17 @@ import * as AOS from 'aos';
 import { HeaderComponentComponent } from "../header-component/header-component.component";
 
 @Component({
-  selector: 'app-services-component',
+  selector: 'app-team-component',
   standalone: true,
   imports: [HeaderComponentComponent],
-  templateUrl: './services-component.component.html',
-  styleUrl: './services-component.component.css'
+  templateUrl: './team-component.component.html',
+  styleUrl: './team-component.component.css'
 })
-export class ServicesComponentComponent {
-ngOnInit(): void {
+export class TeamComponentComponent {
+  ngOnInit(): void {
     AOS.init();
     window.addEventListener('load',AOS.refresh);
 }
 
-currentValue = "Services";
-
+currentValue = "Team";
 }
