@@ -70,8 +70,7 @@
   outline: none;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #FF3E41;
 }
 
@@ -84,6 +83,15 @@
   .navbar-light .navbar-nav {
       border-top: 1px solid #EEEEEE;
   }
+
+  .dropdown-item:hover{
+    background-color: #FF3E41;
+    color: white;
+    }
+    .dropdown-item.active{
+      background-color: #FF3E41;
+      color: white;
+    }
 }
 
 .navbar-light .navbar-brand,
@@ -109,7 +117,7 @@
       height: 5px;
       top: -6px;
       left: 50%;
-      background: #FF3E41;
+      background: #FFFFFF;
       transition: .5s;
   }
 
@@ -138,5 +146,14 @@
       visibility: visible;
       transition: .5s;
       opacity: 1;
+  }
+
+  .dropdown-item:hover{
+  background-color: #FF3E41;
+  color: white;
+  }
+  .dropdown-item.active{
+    background-color: #FF3E41;
+    color: white;
   }
 }
